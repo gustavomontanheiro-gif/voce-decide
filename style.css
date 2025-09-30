@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Jolly+Lodger&display=swap');
+ 
  :root{
-    --hunter-green: #386641ff;
-    --asparagus: #6a994eff;
-    --yellow-green: #a7c957ff;
-    --parchment: #f2e8cfff;
-    
+
+    --verde-forte: #386641ff;
+    --aspargos: #6a994eff;
+    --verde-amarelo: #a7c957ff;
+    --amarelo: rgb(255, 251, 2);
+    --titulo: "Honk", system-ui;
+    --texto:"Jolly Lodger", system-ui;
+}
+
+body{
+    background-color: var(--verde-forte);
+    font-family: var(--texto);
 }
