@@ -5,7 +5,8 @@
     --verde-forte: #386641ff;
     --aspargos: #6a994eff;
     --verde-amarelo: #a7c957ff;
-    --amarelo: rgb(255, 251, 2);
+    --amarelo: rgb(255, 238, 0);
+    --branco: #f1f1f1;
     --titulo: "Honk", system-ui;
     --texto:"Jolly Lodger", system-ui;
 }
@@ -19,4 +20,28 @@ body{
     margin: 0;
     padding: 0;
 
+}
+
+button{
+    background-color: var(--aspargos);
+    color: var(--branco);
+    padding: 10px ;
+    border: 2px solid var(--branco);
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: var(--amarelo);
+    color: var(--verde-amarelo);
+    transition: 0.5s;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 10px #000;
+}
+main{
+    margin: 40px 20px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 28px;
 }
