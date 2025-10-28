@@ -45,3 +45,10 @@ main{
     text-align: center;
     font-size: 28px;
 }
+
+.passo{
+   display: none;
+}
+.ativo{
+    display: block;
+}
